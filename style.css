@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: black;
+    font-family: 'Oswald','Poppins';
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*--------------------Navbar--------------------*/
+
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+.bold {
+    font-size: 30px;
+    color: #ffd700;
+}
+
+li {
+    padding: 5px;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: bold;
+    border: 3px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #ffd700;
+    transition: .5s;
+}
+
+
+/*--------------------Home--------------------*/
+
+span {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+/*--------------------About--------------------*/
+
+#about img {
+    border-radius: 10px;
+}
+
+
+/*--------------------Services--------------------*/
+
+.card img {
+    height: 200px;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.card img {
+    transition: 1s ease-in;
+}
+
+.card img:hover {
+    transform: scale(1.2);
+}
+
+
+/*--------------------Contact--------------------*/
+
+form {
+    padding: 20px;
+    box-shadow: 4px 4px 6px #ffd700,
+                -1px -1px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
